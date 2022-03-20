@@ -1,8 +1,8 @@
 {
-  "price": 0.01,
+  "price": 1,
   "number": null,
   "gatekeeper": {
-    "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+    "gatekeeperNetwork": "tibePmPaoTgrs929rWpu755EXaxC7M3SthVCf6GzjZt",
     "expireOnUse": true
   },
   "solTreasuryAccount": null,
@@ -11,7 +11,11 @@
   "goLiveDate": null,
   "endSettings": null,
   "whitelistMintSettings": null,
-  "hiddenSettings": null,
+  "hiddenSettings": {
+    "name":"My Hidden Collection ",
+    "uri":"uri",
+    "hash":"44kiGWWsSgdqPMvmqYgTS78Mx2BKCWzd"
+  },
   "storage": "arweave",
   "ipfsInfuraProjectId": null,
   "ipfsInfuraSecret": null,
