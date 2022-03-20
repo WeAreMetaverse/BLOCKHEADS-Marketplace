@@ -568,7 +568,13 @@ export function Notifications() {
   );
 
   const justContent = (
-    <Popover placement="bottomLeft" content={content} trigger="click">
+    <Popover
+      className="noty-popover"
+      placement="bottomLeft"
+      content={content}
+      trigger="click"
+    >
+      <h1 className="title">BH$</h1>
       <img src={'/bell.svg'} style={{ cursor: 'pointer' }} />
       {!!notifications.length && (
         <div className="mobile-notification">{notifications.length - 1}</div>
