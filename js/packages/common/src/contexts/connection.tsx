@@ -45,7 +45,7 @@ export const ENDPOINTS: Array<Endpoint> = [
   {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
-    url: 'https://blue-spring-sun.solana-mainnet.quiknode.pro/076d0578c1fb03fce2d18015481cf6aa495c4007/',
+    url: 'https://blue-spring-sun.solana-mainnet.quiknode.pro/40af09d4dfea77a0904a58a5e33446e9a5588dc1/',
     chainId: ChainId.MainnetBeta,
   },
   {
