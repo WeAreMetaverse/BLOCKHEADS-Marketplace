@@ -103,7 +103,7 @@ export type ENV = 'mainnet-beta' | 'testnet' | 'devnet' | 'localnet';
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://blue-spring-sun.solana-mainnet.quiknode.pro/40af09d4dfea77a0904a58a5e33446e9a5588dc1/,
+    endpoint: 'https://blue-spring-sun.solana-mainnet.quiknode.pro/40af09d4dfea77a0904a58a5e33446e9a5588dc1/',
     ChainId: ChainId.MainnetBeta,
   },
   {
